@@ -1,0 +1,273 @@
+{
+  "name": "Magento Core Packages",
+  "homepage": "http://packages.web.loewenstark.de",
+  "description": "Please visit https://github.com/magento-hackathon/composer-repository for further informaton.",
+  "repositories": [
+    {
+      "type": "package",
+      "package": {
+        "dist": {
+          "type": "tar",
+          "url": "http://connect20.magentocommerce.com/community/Interface_Adminhtml_Default/1.8.1.0/Interface_Adminhtml_Default-1.8.1.0.tgz",
+          "reference": null,
+          "shasum": null
+        },
+        "extra": {
+          "package-xml": "package.xml"
+        },
+        "name": "connect20/interface_adminhtml_default",
+        "require": {
+          "magento-hackathon/magento-composer-installer": "*",
+          "connect20/mage_core_adminhtml": "1.8.1.0",
+          "connect20/lib_js_ext": "1.7.0.0"
+        },
+        "type": "magento-module",
+        "version": "1.8.1.0"
+      }
+    },{
+      "type": "package",
+      "package": {
+        "dist": {
+          "type": "tar",
+          "url": "http://connect20.magentocommerce.com/community/Interface_Frontend_Base_Default/1.8.1.0/Interface_Frontend_Base_Default-1.8.1.0.tgz",
+          "reference": null,
+          "shasum": null
+        },
+        "extra": {
+          "package-xml": "package.xml"
+        },
+        "name": "connect20/interface_frontend_base_default",
+        "require": {
+          "magento-hackathon/magento-composer-installer": "*",
+          "connect20/mage_core_modules": "1.8.1.0"
+        },
+        "type": "magento-module",
+        "version": "1.8.1.0"
+      }
+    },{
+      "type": "package",
+      "package": {
+        "dist": {
+          "type": "tar",
+          "url": "http://connect20.magentocommerce.com/community/Interface_Frontend_Default/1.8.1.0/Interface_Frontend_Default-1.8.1.0.tgz",
+          "reference": null,
+          "shasum": null
+        },
+        "extra": {
+          "package-xml": "package.xml"
+        },
+        "name": "connect20/interface_frontend_default",
+        "require": {
+          "magento-hackathon/magento-composer-installer": "*",
+          "connect20/mage_core_modules": "1.8.1.0"
+        },
+        "type": "magento-module",
+        "version": "1.8.1.0"
+      }
+    },{
+      "type": "package",
+      "package": {
+        "dist": {
+          "type": "tar",
+          "url": "http://connect20.magentocommerce.com/community/Lib_Google_Checkout/1.8.1.0/Lib_Google_Checkout-1.8.1.0.tgz",
+          "reference": null,
+          "shasum": null
+        },
+        "extra": {
+          "package-xml": "package.xml"
+        },
+        "name": "connect20/lib_google_checkout",
+        "require": {
+          "magento-hackathon/magento-composer-installer": "*"
+        },
+        "type": "magento-module",
+        "version": "1.8.1.0"
+      }
+    },{
+      "type": "package",
+      "package": {
+        "dist": {
+          "type": "tar",
+          "url": "http://connect20.magentocommerce.com/community/Lib_Js_Mage/1.8.1.0/Lib_Js_Mage-1.8.1.0.tgz",
+          "reference": null,
+          "shasum": null
+        },
+        "extra": {
+          "package-xml": "package.xml"
+        },
+        "name": "connect20/lib_js_mage",
+        "require": {
+          "magento-hackathon/magento-composer-installer": "*",
+          "connect20/lib_js_prototype": "1.7.0.04"
+        },
+        "type": "magento-module",
+        "version": "1.8.1.0"
+      }
+    },{
+      "type": "package",
+      "package": {
+        "dist": {
+          "type": "tar",
+          "url": "http://connect20.magentocommerce.com/community/Lib_Varien/1.8.1.0/Lib_Varien-1.8.1.0.tgz",
+          "reference": null,
+          "shasum": null
+        },
+        "extra": {
+          "package-xml": "package.xml"
+        },
+        "name": "connect20/lib_varien",
+        "require": {
+          "magento-hackathon/magento-composer-installer": "*",
+          "connect20/lib_zf": "1.11.1.0"
+        },
+        "type": "magento-module",
+        "version": "1.8.1.0"
+      }
+    },{
+      "type": "package",
+      "package": {
+        "dist": {
+          "type": "tar",
+          "url": "http://connect20.magentocommerce.com/community/Mage_All_Latest/1.8.1.0/Mage_All_Latest-1.8.1.0.tgz",
+          "reference": null,
+          "shasum": null
+        },
+        "extra": {
+          "package-xml": "package.xml"
+        },
+        "name": "connect20/mage_all_latest",
+        "require": {
+          "magento-hackathon/magento-composer-installer": "*",
+          "connect20/mage_core_modules": "1.8.1.0",
+          "connect20/mage_core_adminhtml": "1.8.1.0",
+          "connect20/interface_adminhtml_default": "1.8.1.0",
+          "connect20/interface_frontend_default": "1.8.1.0",
+          "connect20/interface_install_default": "1.8.0.0",
+          "connect20/mage_downloader": "1.8.1.0",
+          "connect20/mage_centinel": "1.8.0.0",
+          "connect20/interface_frontend_base_default": "1.8.1.0",
+          "connect20/phoenix_moneybookers": "1.3.2",
+          "connect20/mage_compiler": "1.8.1.0",
+          "connect20/magento_mobile": "1.8.0.0231",
+          "connect20/lib_cm": "1.8.0.0",
+          "connect20/cm_redissession": "1.8.0.0"
+        },
+        "type": "magento-module",
+        "version": "1.8.1.0"
+      }
+    },{
+      "type": "package",
+      "package": {
+        "dist": {
+          "type": "tar",
+          "url": "http://connect20.magentocommerce.com/community/Mage_Compiler/1.8.1.0/Mage_Compiler-1.8.1.0.tgz",
+          "reference": null,
+          "shasum": null
+        },
+        "extra": {
+          "package-xml": "package.xml"
+        },
+        "name": "connect20/mage_compiler",
+        "require": {
+          "magento-hackathon/magento-composer-installer": "*",
+          "connect20/mage_core_modules": "1.8.1.0",
+          "connect20/mage_core_adminhtml": "1.8.1.0"
+        },
+        "type": "magento-module",
+        "version": "1.8.1.0"
+      }
+    },{
+      "type": "package",
+      "package": {
+        "dist": {
+          "type": "tar",
+          "url": "http://connect20.magentocommerce.com/community/Mage_Core_Adminhtml/1.8.1.0/Mage_Core_Adminhtml-1.8.1.0.tgz",
+          "reference": null,
+          "shasum": null
+        },
+        "extra": {
+          "package-xml": "package.xml"
+        },
+        "name": "connect20/mage_core_adminhtml",
+        "require": {
+          "magento-hackathon/magento-composer-installer": "*",
+          "connect20/mage_core_modules": "1.8.1.0",
+          "connect20/lib_js_calendar": "1.51.1.1",
+          "connect20/lib_js_ext": "1.7.0.0",
+          "connect20/lib_linlibertinefont": "2.8.14.1",
+          "connect20/lib_js_tinymce": "3.4.7.0"
+        },
+        "type": "magento-module",
+        "version": "1.8.1.0"
+      }
+    },{
+      "type": "package",
+      "package": {
+        "dist": {
+          "type": "tar",
+          "url": "http://connect20.magentocommerce.com/community/Mage_Core_Modules/1.8.1.0/Mage_Core_Modules-1.8.1.0.tgz",
+          "reference": null,
+          "shasum": null
+        },
+        "extra": {
+          "package-xml": "package.xml"
+        },
+        "name": "connect20/mage_core_modules",
+        "require": {
+          "magento-hackathon/magento-composer-installer": "*",
+          "connect20/lib_varien": "1.8.1.0",
+          "connect20/lib_google_checkout": "1.8.1.0",
+          "connect20/lib_js_calendar": "1.51.1.1",
+          "connect20/lib_js_mage": "1.8.1.0",
+          "connect20/lib_js_prototype": "1.7.0.04",
+          "connect20/lib_phpseclib": "1.5.0.0",
+          "connect20/mage_locale_en_us": "1.8.1.0",
+          "connect20/lib_mage": "1.8.0.0",
+          "connect20/lib_magento": "1.8.0.0",
+          "connect20/lib_credis": "1.8.0.0"
+        },
+        "type": "magento-module",
+        "version": "1.8.1.0"
+      }
+    },{
+      "type": "package",
+      "package": {
+        "dist": {
+          "type": "tar",
+          "url": "http://connect20.magentocommerce.com/community/Mage_Downloader/1.8.1.0/Mage_Downloader-1.8.1.0.tgz",
+          "reference": null,
+          "shasum": null
+        },
+        "extra": {
+          "package-xml": "package.xml"
+        },
+        "name": "connect20/mage_downloader",
+        "require": {
+          "magento-hackathon/magento-composer-installer": "*"
+        },
+        "type": "magento-module",
+        "version": "1.8.1.0"
+      }
+    },{
+      "type": "package",
+      "package": {
+        "dist": {
+          "type": "tar",
+          "url": "http://connect20.magentocommerce.com/community/Mage_Locale_en_US/1.8.1.0/Mage_Locale_en_US-1.8.1.0.tgz",
+          "reference": null,
+          "shasum": null
+        },
+        "extra": {
+          "package-xml": "package.xml"
+        },
+        "name": "connect20/mage_locale_en_us",
+        "require": {
+          "magento-hackathon/magento-composer-installer": "*"
+        },
+        "type": "magento-module",
+        "version": "1.8.1.0"
+      }
+    }
+  ],
+  "require-all": "true"
+}
