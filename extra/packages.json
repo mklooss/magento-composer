@@ -14,10 +14,7 @@
                 "require": {
                     "magento-hackathon/magento-composer-installer": "*"
                 },
-                "type": "magento-module",
-                "extra": {
-                    "package-xml": "package.xml"
-                }
+                "type": "magento-module"
             },
             "1.7.0.02": {
                 "name": "riconeitzel/german-localepack-de-de",
@@ -32,10 +29,7 @@
                 "require": {
                     "magento-hackathon/magento-composer-installer": "*"
                 },
-                "type": "magento-module",
-                "extra": {
-                    "package-xml": "package.xml"
-                }
+                "type": "magento-module"
             },
             "1.7.0.10": {
                 "name": "riconeitzel/german-localepack-de-de",
@@ -50,10 +44,7 @@
                 "require": {
                     "magento-hackathon/magento-composer-installer": "*"
                 },
-                "type": "magento-module",
-                "extra": {
-                    "package-xml": "package.xml"
-                }
+                "type": "magento-module"
             },
             "1.7.0.20": {
                 "name": "riconeitzel/german-localepack-de-de",
@@ -68,10 +59,7 @@
                 "require": {
                     "magento-hackathon/magento-composer-installer": "*"
                 },
-                "type": "magento-module",
-                "extra": {
-                    "package-xml": "package.xml"
-                }
+                "type": "magento-module"
             },
             "1.7.0.21": {
                 "name": "riconeitzel/german-localepack-de-de",
@@ -86,10 +74,7 @@
                 "require": {
                     "magento-hackathon/magento-composer-installer": "*"
                 },
-                "type": "magento-module",
-                "extra": {
-                    "package-xml": "package.xml"
-                }
+                "type": "magento-module"
             },
             "1.7.0.22": {
                 "name": "riconeitzel/german-localepack-de-de",
@@ -104,10 +89,7 @@
                 "require": {
                     "magento-hackathon/magento-composer-installer": "*"
                 },
-                "type": "magento-module",
-                "extra": {
-                    "package-xml": "package.xml"
-                }
+                "type": "magento-module"
             },
             "1.7.0.23": {
                 "name": "riconeitzel/german-localepack-de-de",
@@ -122,10 +104,7 @@
                 "require": {
                     "magento-hackathon/magento-composer-installer": "*"
                 },
-                "type": "magento-module",
-                "extra": {
-                    "package-xml": "package.xml"
-                }
+                "type": "magento-module"
             },
             "1.7.0.24": {
                 "name": "riconeitzel/german-localepack-de-de",
@@ -140,10 +119,7 @@
                 "require": {
                     "magento-hackathon/magento-composer-installer": "*"
                 },
-                "type": "magento-module",
-                "extra": {
-                    "package-xml": "package.xml"
-                }
+                "type": "magento-module"
             },
             "1.8.0.00": {
                 "name": "riconeitzel/german-localepack-de-de",
@@ -158,10 +134,7 @@
                 "require": {
                     "magento-hackathon/magento-composer-installer": "*"
                 },
-                "type": "magento-module",
-                "extra": {
-                    "package-xml": "package.xml"
-                }
+                "type": "magento-module"
             },
             "1.8.0.02": {
                 "name": "riconeitzel/german-localepack-de-de",
@@ -176,10 +149,7 @@
                 "require": {
                     "magento-hackathon/magento-composer-installer": "*"
                 },
-                "type": "magento-module",
-                "extra": {
-                    "package-xml": "package.xml"
-                }
+                "type": "magento-module"
             }
         }
     }
